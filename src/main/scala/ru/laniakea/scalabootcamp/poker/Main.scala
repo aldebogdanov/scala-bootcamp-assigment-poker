@@ -1,31 +1,22 @@
 package ru.laniakea.scalabootcamp.poker
 
-import cats.effect.{Blocker, ContextShift, IO}
-import fs2.io.stdinUtf8
+import monix.eval.Task
+import monix.reactive.{Consumer, Observable}
+import monix.execution.schedulers.SchedulerService
+
 
 object Main {
 
   def main(args: Array[String]): Unit = {
 
-    implicit val cs: ContextShift[IO] =
-      IO.contextShift(scala.concurrent.ExecutionContext.global)
+    implicit val s: SchedulerService = monix.execution.Scheduler.io()
 
-    System.err.println("err")
-    Blocker[IO]
-      .use { blocker =>
-        stdinUtf8[IO](1024, blocker)
-          .takeThrough(_.last.toByte != 0x1a)
-          .takeThrough(!_.startsWith("exit"))
-          .evalFilter(str => {
-            IO {
-              System.err.println(s"err: $str")
-              println(s"$str$str")
-              true
-            }
-          })
-          .compile
-          .drain
-      }
-      .unsafeRunSync()
-  }
+    Observable.fromIterator(Task(scala.io.Source.stdin.getLines()))
+      .takeWhileInclusive(_.last.toByte != 0x1a)
+      .takeWhile(!_.startsWith("exit"))
+      .map(_.replaceAll("\\P{Print}", ""))
+      .mapEval(str => Task(System.out.println(str)))
+      .consumeWith(Consumer.complete)
+      .runSyncUnsafe()
+  }   
 }
