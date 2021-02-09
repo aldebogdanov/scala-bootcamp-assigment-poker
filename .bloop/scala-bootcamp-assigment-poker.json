@@ -1,0 +1,400 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "scala-bootcamp-assigment-poker",
+        "directory": "/home/laniakea/projects/scala-bootcamp-assigment-poker",
+        "workspaceDir": "/home/laniakea/projects/scala-bootcamp-assigment-poker",
+        "sources": [
+            "/home/laniakea/projects/scala-bootcamp-assigment-poker/src/main/scala",
+            "/home/laniakea/projects/scala-bootcamp-assigment-poker/src/main/scala-2.13",
+            "/home/laniakea/projects/scala-bootcamp-assigment-poker/src/main/scala-2",
+            "/home/laniakea/projects/scala-bootcamp-assigment-poker/src/main/java",
+            "/home/laniakea/projects/scala-bootcamp-assigment-poker/target/scala-2.13/src_managed/main"
+        ],
+        "dependencies": [
+            
+        ],
+        "classpath": [
+            "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.4/scala-library-2.13.4.jar",
+            "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/io/monix/monix_2.13/3.3.0/monix_2.13-3.3.0.jar",
+            "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/io/monix/monix-execution_2.13/3.3.0/monix-execution_2.13-3.3.0.jar",
+            "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/io/monix/monix-catnap_2.13/3.3.0/monix-catnap_2.13-3.3.0.jar",
+            "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/io/monix/monix-eval_2.13/3.3.0/monix-eval_2.13-3.3.0.jar",
+            "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/io/monix/monix-tail_2.13/3.3.0/monix-tail_2.13-3.3.0.jar",
+            "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/io/monix/monix-reactive_2.13/3.3.0/monix-reactive_2.13-3.3.0.jar",
+            "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/io/monix/monix-java_2.13/3.3.0/monix-java_2.13-3.3.0.jar",
+            "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/io/monix/monix-internal-jctools_2.13/3.3.0/monix-internal-jctools_2.13-3.3.0.jar",
+            "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/io/monix/implicitbox_2.13/0.2.0/implicitbox_2.13-0.2.0.jar",
+            "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar",
+            "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-effect_2.13/2.1.4/cats-effect_2.13-2.1.4.jar",
+            "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-core_2.13/2.1.1/cats-core_2.13-2.1.1.jar",
+            "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-macros_2.13/2.1.1/cats-macros_2.13-2.1.1.jar",
+            "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-kernel_2.13/2.1.1/cats-kernel_2.13-2.1.1.jar"
+        ],
+        "out": "/home/laniakea/projects/scala-bootcamp-assigment-poker/.bloop/scala-bootcamp-assigment-poker",
+        "classesDir": "/home/laniakea/projects/scala-bootcamp-assigment-poker/.bloop/scala-bootcamp-assigment-poker/scala-2.13/classes",
+        "resources": [
+            "/home/laniakea/projects/scala-bootcamp-assigment-poker/src/main/resources",
+            "/home/laniakea/projects/scala-bootcamp-assigment-poker/target/scala-2.13/resource_managed/main"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.13.4",
+            "options": [
+                
+            ],
+            "jars": [
+                "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.4/scala-compiler-2.13.4.jar",
+                "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.4/scala-library-2.13.4.jar",
+                "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.4/scala-reflect-2.13.4.jar",
+                "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.16.0/jline-3.16.0.jar",
+                "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar"
+            ],
+            "analysis": "/home/laniakea/projects/scala-bootcamp-assigment-poker/target/streams/compile/bloopAnalysisOut/_global/streams/inc_compile_2.13.zip",
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            }
+        },
+        "java": {
+            "options": [
+                
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "/usr/lib/jvm/java-11-openjdk",
+                "options": [
+                    "-Duser.dir=/home/laniakea/projects/scala-bootcamp-assigment-poker"
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.13.4",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.4/scala-library-2.13.4.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.4/scala-library-2.13.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.monix",
+                    "name": "monix_2.13",
+                    "version": "3.3.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "monix_2.13",
+                            "path": "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/io/monix/monix_2.13/3.3.0/monix_2.13-3.3.0.jar"
+                        },
+                        {
+                            "name": "monix_2.13",
+                            "classifier": "sources",
+                            "path": "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/io/monix/monix_2.13/3.3.0/monix_2.13-3.3.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.monix",
+                    "name": "monix-execution_2.13",
+                    "version": "3.3.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "monix-execution_2.13",
+                            "path": "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/io/monix/monix-execution_2.13/3.3.0/monix-execution_2.13-3.3.0.jar"
+                        },
+                        {
+                            "name": "monix-execution_2.13",
+                            "classifier": "sources",
+                            "path": "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/io/monix/monix-execution_2.13/3.3.0/monix-execution_2.13-3.3.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.monix",
+                    "name": "monix-catnap_2.13",
+                    "version": "3.3.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "monix-catnap_2.13",
+                            "path": "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/io/monix/monix-catnap_2.13/3.3.0/monix-catnap_2.13-3.3.0.jar"
+                        },
+                        {
+                            "name": "monix-catnap_2.13",
+                            "classifier": "sources",
+                            "path": "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/io/monix/monix-catnap_2.13/3.3.0/monix-catnap_2.13-3.3.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.monix",
+                    "name": "monix-eval_2.13",
+                    "version": "3.3.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "monix-eval_2.13",
+                            "path": "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/io/monix/monix-eval_2.13/3.3.0/monix-eval_2.13-3.3.0.jar"
+                        },
+                        {
+                            "name": "monix-eval_2.13",
+                            "classifier": "sources",
+                            "path": "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/io/monix/monix-eval_2.13/3.3.0/monix-eval_2.13-3.3.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.monix",
+                    "name": "monix-tail_2.13",
+                    "version": "3.3.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "monix-tail_2.13",
+                            "path": "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/io/monix/monix-tail_2.13/3.3.0/monix-tail_2.13-3.3.0.jar"
+                        },
+                        {
+                            "name": "monix-tail_2.13",
+                            "classifier": "sources",
+                            "path": "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/io/monix/monix-tail_2.13/3.3.0/monix-tail_2.13-3.3.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.monix",
+                    "name": "monix-reactive_2.13",
+                    "version": "3.3.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "monix-reactive_2.13",
+                            "path": "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/io/monix/monix-reactive_2.13/3.3.0/monix-reactive_2.13-3.3.0.jar"
+                        },
+                        {
+                            "name": "monix-reactive_2.13",
+                            "classifier": "sources",
+                            "path": "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/io/monix/monix-reactive_2.13/3.3.0/monix-reactive_2.13-3.3.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.monix",
+                    "name": "monix-java_2.13",
+                    "version": "3.3.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "monix-java_2.13",
+                            "path": "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/io/monix/monix-java_2.13/3.3.0/monix-java_2.13-3.3.0.jar"
+                        },
+                        {
+                            "name": "monix-java_2.13",
+                            "classifier": "sources",
+                            "path": "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/io/monix/monix-java_2.13/3.3.0/monix-java_2.13-3.3.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.monix",
+                    "name": "monix-internal-jctools_2.13",
+                    "version": "3.3.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "monix-internal-jctools_2.13",
+                            "path": "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/io/monix/monix-internal-jctools_2.13/3.3.0/monix-internal-jctools_2.13-3.3.0.jar"
+                        },
+                        {
+                            "name": "monix-internal-jctools_2.13",
+                            "classifier": "sources",
+                            "path": "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/io/monix/monix-internal-jctools_2.13/3.3.0/monix-internal-jctools_2.13-3.3.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.monix",
+                    "name": "implicitbox_2.13",
+                    "version": "0.2.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "implicitbox_2.13",
+                            "path": "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/io/monix/implicitbox_2.13/0.2.0/implicitbox_2.13-0.2.0.jar"
+                        },
+                        {
+                            "name": "implicitbox_2.13",
+                            "classifier": "sources",
+                            "path": "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/io/monix/implicitbox_2.13/0.2.0/implicitbox_2.13-0.2.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.reactivestreams",
+                    "name": "reactive-streams",
+                    "version": "1.0.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "reactive-streams",
+                            "path": "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar"
+                        },
+                        {
+                            "name": "reactive-streams",
+                            "classifier": "sources",
+                            "path": "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.typelevel",
+                    "name": "cats-effect_2.13",
+                    "version": "2.1.4",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "cats-effect_2.13",
+                            "path": "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-effect_2.13/2.1.4/cats-effect_2.13-2.1.4.jar"
+                        },
+                        {
+                            "name": "cats-effect_2.13",
+                            "classifier": "sources",
+                            "path": "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-effect_2.13/2.1.4/cats-effect_2.13-2.1.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.typelevel",
+                    "name": "cats-core_2.13",
+                    "version": "2.1.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "cats-core_2.13",
+                            "path": "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-core_2.13/2.1.1/cats-core_2.13-2.1.1.jar"
+                        },
+                        {
+                            "name": "cats-core_2.13",
+                            "classifier": "sources",
+                            "path": "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-core_2.13/2.1.1/cats-core_2.13-2.1.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.typelevel",
+                    "name": "cats-macros_2.13",
+                    "version": "2.1.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "cats-macros_2.13",
+                            "path": "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-macros_2.13/2.1.1/cats-macros_2.13-2.1.1.jar"
+                        },
+                        {
+                            "name": "cats-macros_2.13",
+                            "classifier": "sources",
+                            "path": "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-macros_2.13/2.1.1/cats-macros_2.13-2.1.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.typelevel",
+                    "name": "cats-kernel_2.13",
+                    "version": "2.1.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "cats-kernel_2.13",
+                            "path": "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-kernel_2.13/2.1.1/cats-kernel_2.13-2.1.1.jar"
+                        },
+                        {
+                            "name": "cats-kernel_2.13",
+                            "classifier": "sources",
+                            "path": "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-kernel_2.13/2.1.1/cats-kernel_2.13-2.1.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.13.4",
+                    "configurations": "optional",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.4/scala-library-2.13.4.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.4/scala-library-2.13.4-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "library"
+        ]
+    }
+}

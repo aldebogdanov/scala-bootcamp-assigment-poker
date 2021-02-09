@@ -341,5 +341,3 @@ class MainTest extends AnyFlatSpec {
     assertGetHigherHandValue[StraightFlush](hand)(toCompare)
   }
 }
-
-// 7h4s4h8c9h Tc5h6dAc5c Kd9sAs3cQs Ah9d6s2cKh 4c8h2h6c9c
