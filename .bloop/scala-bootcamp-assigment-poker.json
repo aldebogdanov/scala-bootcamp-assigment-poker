@@ -108,7 +108,7 @@
         "platform": {
             "name": "jvm",
             "config": {
-                "home": "/usr/lib/jvm/java-11-openjdk",
+                "home": "/nix/store/spsz12546jlwrczh1l7p9k1xapj7mjf0-openjdk-11.0.9+11/lib/openjdk",
                 "options": [
                     "-Duser.dir=/home/laniakea/projects/scala-bootcamp-assigment-poker"
                 ]

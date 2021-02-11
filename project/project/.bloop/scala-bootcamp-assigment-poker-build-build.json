@@ -121,8 +121,8 @@
             ],
             "jars": [
                 "/home/laniakea/.sbt/boot/scala-2.12.12/lib/jansi.jar",
-                "/home/laniakea/.sbt/boot/scala-2.12.12/lib/scala-xml_2.12.jar",
                 "/home/laniakea/.sbt/boot/scala-2.12.12/lib/scala-library.jar",
+                "/home/laniakea/.sbt/boot/scala-2.12.12/lib/scala-xml_2.12.jar",
                 "/home/laniakea/.sbt/boot/scala-2.12.12/lib/scala-reflect.jar",
                 "/home/laniakea/.sbt/boot/scala-2.12.12/lib/scala-compiler.jar",
                 "/home/laniakea/.sbt/boot/scala-2.12.12/lib/jline.jar"
@@ -195,7 +195,7 @@
         "platform": {
             "name": "jvm",
             "config": {
-                "home": "/usr/lib/jvm/java-11-openjdk",
+                "home": "/nix/store/7kh9ka0ipjni43hwfm58rj0zw2vsc2zc-openjdk-8u272-b10/lib/openjdk/jre",
                 "options": [
                     "-Duser.dir=/home/laniakea/projects/scala-bootcamp-assigment-poker/project/project"
                 ]

@@ -1,5 +1,7 @@
 package ru.laniakea.scalabootcamp.poker
 
+import ru.laniakea.scalabootcamp.poker.exceptions.WrongInputToParseASuitException
+
 object Suit {
   def parse(ch: Char): Either[Throwable, Suit] = ch match {
     case 'h' => Right(Heart)
@@ -7,7 +9,7 @@ object Suit {
     case 'c' => Right(Club)
     case 's' => Right(Spade)
 
-    case x => Left(new Exception(s"Error: wrong input to parse a suit ('$x')"))
+    case x => Left(new WrongInputToParseASuitException(x))
   }
 }
 

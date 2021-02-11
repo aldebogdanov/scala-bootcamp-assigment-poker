@@ -19,15 +19,11 @@
             "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/sbt/1.4.5/sbt-1.4.5.jar",
             "/home/laniakea/.sbt/boot/scala-2.12.12/lib/scala-library.jar",
             "/home/laniakea/.cache/coursier/v1/https/repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.12/sbt_1.0/0.14.6/jars/sbt-assembly.jar",
-            "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/1.4.6-21-464e4ec4/sbt-bloop-1.4.6-21-464e4ec4.jar",
+            "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/sbt-metals_2.12_1.0/0.9.10/sbt-metals-0.9.10.jar",
             "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/main_2.12/1.4.5/main_2.12-1.4.5.jar",
             "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/io_2.12/1.4.0/io_2.12-1.4.0.jar",
             "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.1/scalactic_2.12-3.0.1.jar",
             "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/org/pantsbuild/jarjar/1.6.5/jarjar-1.6.5.jar",
-            "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.5.0/jna-5.5.0.jar",
-            "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.5.0/jna-platform-5.5.0.jar",
-            "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/code/gson/gson/2.7/gson-2.7.jar",
-            "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar",
             "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/logic_2.12/1.4.5/logic_2.12-1.4.5.jar",
             "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/actions_2.12/1.4.5/actions_2.12-1.4.5.jar",
             "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/main-settings_2.12/1.4.5/main-settings_2.12-1.4.5.jar",
@@ -49,6 +45,8 @@
             "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/librarymanagement-ivy_2.12/1.4.1/librarymanagement-ivy_2.12-1.4.1.jar",
             "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.4.3/compiler-interface-1.4.3.jar",
             "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/zinc-compile_2.12/1.4.3/zinc-compile_2.12-1.4.3.jar",
+            "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.5.0/jna-5.5.0.jar",
+            "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.5.0/jna-platform-5.5.0.jar",
             "/home/laniakea/.sbt/boot/scala-2.12.12/lib/scala-reflect.jar",
             "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/ant/ant/1.9.9/ant-1.9.9.jar",
             "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/org/ow2/asm/asm/6.0/asm-6.0.jar",
@@ -141,8 +139,8 @@
             ],
             "jars": [
                 "/home/laniakea/.sbt/boot/scala-2.12.12/lib/jansi.jar",
-                "/home/laniakea/.sbt/boot/scala-2.12.12/lib/scala-xml_2.12.jar",
                 "/home/laniakea/.sbt/boot/scala-2.12.12/lib/scala-library.jar",
+                "/home/laniakea/.sbt/boot/scala-2.12.12/lib/scala-xml_2.12.jar",
                 "/home/laniakea/.sbt/boot/scala-2.12.12/lib/scala-reflect.jar",
                 "/home/laniakea/.sbt/boot/scala-2.12.12/lib/scala-compiler.jar",
                 "/home/laniakea/.sbt/boot/scala-2.12.12/lib/jline.jar"
@@ -169,8 +167,8 @@
                 "import _root_.sbt._",
                 "import _root_.sbt.Keys._",
                 "import _root_.sbt.nio.Keys._",
-                "import _root_.sbt.ScriptedPlugin.autoImport._, _root_.sbt.plugins.MiniDependencyTreePlugin.autoImport._, _root_.bloop.integrations.sbt.BloopPlugin.autoImport._, _root_.sbtassembly.AssemblyPlugin.autoImport._",
-                "import _root_.sbt.plugins.IvyPlugin, _root_.sbt.plugins.JvmPlugin, _root_.sbt.plugins.CorePlugin, _root_.sbt.ScriptedPlugin, _root_.sbt.plugins.SbtPlugin, _root_.sbt.plugins.SemanticdbPlugin, _root_.sbt.plugins.JUnitXmlReportPlugin, _root_.sbt.plugins.Giter8TemplatePlugin, _root_.sbt.plugins.MiniDependencyTreePlugin, _root_.bloop.integrations.sbt.BloopPlugin, _root_.sbtassembly.AssemblyPlugin"
+                "import _root_.sbt.ScriptedPlugin.autoImport._, _root_.sbt.plugins.MiniDependencyTreePlugin.autoImport._, _root_.sbtassembly.AssemblyPlugin.autoImport._",
+                "import _root_.sbt.plugins.IvyPlugin, _root_.sbt.plugins.JvmPlugin, _root_.sbt.plugins.CorePlugin, _root_.sbt.ScriptedPlugin, _root_.sbt.plugins.SbtPlugin, _root_.sbt.plugins.SemanticdbPlugin, _root_.sbt.plugins.JUnitXmlReportPlugin, _root_.sbt.plugins.Giter8TemplatePlugin, _root_.sbt.plugins.MiniDependencyTreePlugin, _root_.sbtassembly.AssemblyPlugin, _root_.metals.MetalsPlugin"
             ]
         },
         "test": {
@@ -215,7 +213,7 @@
         "platform": {
             "name": "jvm",
             "config": {
-                "home": "/usr/lib/jvm/java-11-openjdk",
+                "home": "/nix/store/7kh9ka0ipjni43hwfm58rj0zw2vsc2zc-openjdk-8u272-b10/lib/openjdk/jre",
                 "options": [
                     "-Duser.dir=/home/laniakea/projects/scala-bootcamp-assigment-poker/project"
                 ]
@@ -239,14 +237,14 @@
                     ]
                 },
                 {
-                    "organization": "ch.epfl.scala",
-                    "name": "sbt-bloop",
-                    "version": "1.4.6-21-464e4ec4",
+                    "organization": "org.scalameta",
+                    "name": "sbt-metals",
+                    "version": "0.9.10",
                     "configurations": "default",
                     "artifacts": [
                         {
-                            "name": "sbt-bloop",
-                            "path": "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/1.4.6-21-464e4ec4/sbt-bloop-1.4.6-21-464e4ec4.jar"
+                            "name": "sbt-metals",
+                            "path": "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/sbt-metals_2.12_1.0/0.9.10/sbt-metals-0.9.10.jar"
                         }
                     ]
                 },
@@ -271,30 +269,6 @@
                         {
                             "name": "jarjar",
                             "path": "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/org/pantsbuild/jarjar/1.6.5/jarjar-1.6.5.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "com.google.code.gson",
-                    "name": "gson",
-                    "version": "2.7",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "gson",
-                            "path": "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/code/gson/gson/2.7/gson-2.7.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "com.google.code.findbugs",
-                    "name": "jsr305",
-                    "version": "3.0.2",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "jsr305",
-                            "path": "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar"
                         }
                     ]
                 },
@@ -584,40 +558,6 @@
                             "name": "io_2.12",
                             "classifier": "sources",
                             "path": "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/io_2.12/1.4.0/io_2.12-1.4.0-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "net.java.dev.jna",
-                    "name": "jna",
-                    "version": "5.5.0",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "jna",
-                            "path": "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.5.0/jna-5.5.0.jar"
-                        },
-                        {
-                            "name": "jna",
-                            "classifier": "sources",
-                            "path": "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.5.0/jna-5.5.0-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "net.java.dev.jna",
-                    "name": "jna-platform",
-                    "version": "5.5.0",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "jna-platform",
-                            "path": "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.5.0/jna-platform-5.5.0.jar"
-                        },
-                        {
-                            "name": "jna-platform",
-                            "classifier": "sources",
-                            "path": "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.5.0/jna-platform-5.5.0-sources.jar"
                         }
                     ]
                 },
@@ -975,6 +915,40 @@
                             "name": "zinc-compile_2.12",
                             "classifier": "sources",
                             "path": "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/zinc-compile_2.12/1.4.3/zinc-compile_2.12-1.4.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "net.java.dev.jna",
+                    "name": "jna",
+                    "version": "5.5.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jna",
+                            "path": "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.5.0/jna-5.5.0.jar"
+                        },
+                        {
+                            "name": "jna",
+                            "classifier": "sources",
+                            "path": "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.5.0/jna-5.5.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "net.java.dev.jna",
+                    "name": "jna-platform",
+                    "version": "5.5.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jna-platform",
+                            "path": "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.5.0/jna-platform-5.5.0.jar"
+                        },
+                        {
+                            "name": "jna-platform",
+                            "classifier": "sources",
+                            "path": "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.5.0/jna-platform-5.5.0-sources.jar"
                         }
                     ]
                 },

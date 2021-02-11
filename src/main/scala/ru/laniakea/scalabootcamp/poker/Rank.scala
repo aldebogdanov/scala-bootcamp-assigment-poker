@@ -1,5 +1,7 @@
 package ru.laniakea.scalabootcamp.poker
 
+import ru.laniakea.scalabootcamp.poker.exceptions.WrongInputToParseARankException
+
 object Rank {
   def parse(ch: Char): Either[Throwable, Rank] = ch match {
     case '2' => Right(Two)
@@ -16,7 +18,7 @@ object Rank {
     case 'K' => Right(King)
     case 'A' => Right(Ace)
 
-    case x => Left(new Exception(s"Error: wrong input to parse a rank ('$x')"))
+    case x => Left(new WrongInputToParseARankException(x))
   }
 }
 

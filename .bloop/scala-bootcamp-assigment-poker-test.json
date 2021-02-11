@@ -20,7 +20,6 @@
             "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/io/monix/monix_2.13/3.3.0/monix_2.13-3.3.0.jar",
             "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_2.13/3.2.2/scalatest_2.13-3.2.2.jar",
             "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-flatspec_2.13/3.2.2/scalatest-flatspec_2.13-3.2.2.jar",
-            "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/io/monix/monix-bio_2.13/1.1.0/monix-bio_2.13-1.1.0.jar",
             "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/io/monix/monix-execution_2.13/3.3.0/monix-execution_2.13-3.3.0.jar",
             "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/io/monix/monix-catnap_2.13/3.3.0/monix-catnap_2.13-3.3.0.jar",
             "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/io/monix/monix-eval_2.13/3.3.0/monix-eval_2.13-3.3.0.jar",
@@ -128,7 +127,7 @@
         "platform": {
             "name": "jvm",
             "config": {
-                "home": "/usr/lib/jvm/java-11-openjdk",
+                "home": "/nix/store/spsz12546jlwrczh1l7p9k1xapj7mjf0-openjdk-11.0.9+11/lib/openjdk",
                 "options": [
                     "-Duser.dir=/home/laniakea/projects/scala-bootcamp-assigment-poker"
                 ]
@@ -459,23 +458,6 @@
                             "name": "scalatest-flatspec_2.13",
                             "classifier": "sources",
                             "path": "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-flatspec_2.13/3.2.2/scalatest-flatspec_2.13-3.2.2-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "io.monix",
-                    "name": "monix-bio_2.13",
-                    "version": "1.1.0",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "monix-bio_2.13",
-                            "path": "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/io/monix/monix-bio_2.13/1.1.0/monix-bio_2.13-1.1.0.jar"
-                        },
-                        {
-                            "name": "monix-bio_2.13",
-                            "classifier": "sources",
-                            "path": "/home/laniakea/.cache/coursier/v1/https/repo1.maven.org/maven2/io/monix/monix-bio_2.13/1.1.0/monix-bio_2.13-1.1.0-sources.jar"
                         }
                     ]
                 },
